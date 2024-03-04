@@ -8,9 +8,8 @@ execute:
 website:
   title: "kiwi-causal-lab"
   navbar:
+    search: true
     left:
-    - text: "home"
-      href: index.qmd
     - text: "People"
       href: people/people.qmd
     - text: "News"
