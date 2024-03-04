@@ -20,10 +20,13 @@ website:
       href: publications/publications.qmd
     - text: "Software"
       href: software/software.qmd
+
 format:
   html:
+    theme: lux
     toc: true
     css: styles.css
     html-math-method: katex
+
 
 license: CC BY-NC-SA
