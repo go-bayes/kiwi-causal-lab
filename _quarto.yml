@@ -1,0 +1,29 @@
+project:
+  type: website
+
+execute:
+  freeze: auto  # re-render only when source changes
+  
+website:
+  title: "kiwi-causal-lab"
+  navbar:
+    left:
+    - text: "kiwi-causal-lab"
+      href: index.qmd
+    - text: "People"
+      href: people/people.qmd
+    - text: "News"
+      href: news/news.qmd
+    - text: "Research"
+      href: research/research.qmd
+    - text: "Publications"
+      href: publications/publications.qmd
+    - text: "Software"
+      href: software/software.qmd
+format:
+  html:
+    toc: true
+    css: styles.css
+    html-math-method: katex
+
+license: CC BY-NC-SA
