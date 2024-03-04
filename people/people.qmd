@@ -3,4 +3,8 @@ title: "People"
 ---
 
 
-## People
+## Faculty
+
+## Post-docs
+
+## Graduate Students
