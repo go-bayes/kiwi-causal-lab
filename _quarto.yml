@@ -9,7 +9,7 @@ website:
   title: "kiwi-causal-lab"
   navbar:
     left:
-    - text: "kiwi-causal-lab"
+    - text: "home"
       href: index.qmd
     - text: "People"
       href: people/people.qmd
