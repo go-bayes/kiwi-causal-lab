@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: docs
+bibliography: references.bib
+citation-location: margin
 
 execute:
   freeze: auto  # re-render only when source changes
@@ -18,8 +20,14 @@ website:
       href: research/research.qmd
     - text: "Publications"
       href: publications/publications.qmd
-    - text: "Software"
-      href: software/software.qmd
+    - text: "reports"
+      href: reports/reports.qmd
+    - text: "Resources"
+      menu:
+        - text: "Software"
+          href: resources/software/software.qmd
+        - text: "Teaching"
+          href: resources/teaching/teaching.qmd
 
 format:
   html:
