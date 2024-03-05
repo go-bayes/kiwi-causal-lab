@@ -1,12 +1,13 @@
 ---
 title: "People"
+references: ./references.bib
 ---
 
 
 ## Faculty
 
 ### Joseph Bulbulia
-
+[@bulbulia2023workflow]
 
 ## Post-Phds
 
@@ -19,3 +20,8 @@ title: "People"
 ### Jake Ireland
 
 ### John Mark Kempthorn
+
+
+:::{.refs}
+
+:::
