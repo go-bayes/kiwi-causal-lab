@@ -31,10 +31,17 @@ website:
 
 format:
   html:
+    code-fold: true
+    code-summary: "reveal code"
     theme: lux
     toc: true
     css: styles.css
     html-math-method: katex
+    warnings: FALSE
+    error: FALSE
+    messages: FALSE
+    code-overflow: scroll
+    highlight-style: kate
 
-
+    
 license: CC BY-NC-SA
