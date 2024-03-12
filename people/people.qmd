@@ -1,27 +1,69 @@
 ---
 title: "People"
-references: ./references.bib
+
 ---
+###
 
+## Prof. Joseph Bulbulia
 
-## Faculty
+I'm a Professor of Psychology at Te Herenga Waka working on bla bla
 
-### Joseph Bulbulia
-[@bulbulia2023workflow]
+Research Interest: causal modelling
 
-## Post-Phds
+[Google Scholar](https://scholar.google.co.nz/citations?user=82b99k8AAAAJ&hl=en&oi=ao)
 
-### Inkuk Kim 
+###
 
-### Torven Schalk
+## Dr. Inkuk Kim 
+I am a post-doctoral research fellow at the Centre for Applied Cross-cultural Research.
 
-## Graduate Students
+Research interests: Environmental Psychology, Cross-cultural Psychology, normative multiculturalism
 
-### Jake Ireland
+[Google Scholar](https://scholar.google.co.nz/citations?hl=en&user=UlU1ecwAAAAJ)
 
-### John Mark Kempthorn
+###
 
+## Dr. Torven Schalk
+I recently finished my PhD in Psychology. In my thesis I investigated courage and responses to norm violations in society using natural language processing, topic modelling, and mixed-effects modelling. I used archival data spanning 240 years as well as human participant data.
 
-:::{.refs}
+Research Interests: Zivilcourage, moral values, hate crimes
+
+[Google Scholar](https://scholar.google.co.nz/citations?hl=en&user=fcMXAx4AAAAJ)
+
+###
+
+## Jake Ireland
+blub
+
+###
+
+## JohnMark Kempthorn
+
+::: columns
+::: {.column width="70%"}
+
+I'm a PhD Candidate and my research focuses on utilising causal inference methods in longitudinal data to shed light on inquiries in political psychology and human flourishing. My thesis employs modified treatment policy and a natural experimentation frameworks to clarify the anatomy of prejudice during the COVID-19 pandemic as well as to observe the influence of basic human need fulfilment on health and well-being.
+:::
+
+::: {.column width="30%"}
+
+```{r}
+#| eval: true
+#| echo: false
+#| fig-align: right
+#| out-width: "125px"
+knitr::include_graphics("media/johnmark.png")
+```
 
 :::
+:::
+
+
+Research Interests: Causal Inference, Prejudice, Health and Wellbeing
+
+[Google Scholar](https://scholar.google.co.nz/citations?hl=en&user=__cSwwYAAAAJ)
+
+###
+
+## Rebekah Senayayake
+
