@@ -4,18 +4,52 @@ title: "People"
 ---
 ###
 
-## Prof. Joseph Bulbulia
+## Prof Joseph Bulbulia
 
-I'm a Professor of Psychology at Te Herenga Waka working on bla bla
+::: columns
+::: {.column width="70%"}
 
-Research Interest: causal modelling
+I am a professor of Psychology at Victoria University in Wellington, New Zealand. I am interested in the longitudinal study of religion, virtue, and psychological well-being. I am one of four senior managers for the New Zealand Attitudes and Values Study.
 
-[Google Scholar](https://scholar.google.co.nz/citations?user=82b99k8AAAAJ&hl=en&oi=ao)
+:::
+
+::: {.column width="30%"}
+
+```{r}
+#| eval: true
+#| echo: false
+#| fig-align: right
+#| out-width: "125px"
+knitr::include_graphics("media/joe.jpg")
+```
+:::
+:::
+
+
+[Google Scholar](https://scholar.google.de/citations?hl=en&user=82b99k8AAAAJ)
 
 ###
 
-## Dr. Inkuk Kim 
+## Dr Inkuk Kim
+
+::: columns
+::: {.column width="70%"}
+
 I am a post-doctoral research fellow at the Centre for Applied Cross-cultural Research.
+
+:::
+
+::: {.column width="30%"}
+
+```{r}
+#| eval: true
+#| echo: false
+#| fig-align: right
+#| out-width: "125px"
+knitr::include_graphics("media/inkuk.jpg")
+```
+:::
+:::
 
 Research interests: Environmental Psychology, Cross-cultural Psychology, normative multiculturalism
 
@@ -23,8 +57,27 @@ Research interests: Environmental Psychology, Cross-cultural Psychology, normati
 
 ###
 
-## Dr. Torven Schalk
+## Dr Torven Schalk
+
+::: columns
+::: {.column width="70%"}
+
 I recently finished my PhD in Psychology. In my thesis I investigated courage and responses to norm violations in society using natural language processing, topic modelling, and mixed-effects modelling. I used archival data spanning 240 years as well as human participant data.
+
+:::
+
+::: {.column width="30%"}
+
+```{r}
+#| eval: true
+#| echo: false
+#| fig-align: right
+#| out-width: "125px"
+knitr::include_graphics("media/torven.jpg")
+```
+:::
+:::
+
 
 Research Interests: Zivilcourage, moral values, hate crimes
 
@@ -33,7 +86,26 @@ Research Interests: Zivilcourage, moral values, hate crimes
 ###
 
 ## Jake Ireland
-blub
+
+::: columns
+::: {.column width="70%"}
+
+I graduated with a Bachelor of Science in Psychology and Mathematics at Victoria University of Wellington in 2020, during which I worked with various research groups on drug abuse, cross-cultural psychology, and face perception research.  Since completing my degree, I have been working in the area of cyber security.  I am now researching cognitive evolution using a causal inference approach.
+:::
+
+::: {.column width="30%"}
+
+```{r}
+#| eval: true
+#| echo: false
+#| fig-align: right
+#| out-width: "125px"
+knitr::include_graphics("media/jake.jpg")
+```
+:::
+:::
+
+Research Interests: cognitive evolution/evolutionary psychology, cross-cultural psychology, causal inference
 
 ###
 
@@ -54,7 +126,6 @@ I'm a PhD Candidate and my research focuses on utilising causal inference method
 #| out-width: "125px"
 knitr::include_graphics("media/johnmark.png")
 ```
-
 :::
 :::
 
@@ -65,5 +136,31 @@ Research Interests: Causal Inference, Prejudice, Health and Wellbeing
 
 ###
 
-## Rebekah Senayayake
+## Rebekah Senanayake
 
+::: columns
+::: {.column width="70%"}
+
+I am a PhD Candidate in Cultural Anthropology with a MSc in Cross-cultural Psychology and BSc (First-class Honours) in Cultural Anthropology and Psychology. I work with qualitative, quantitative, and mixed-methods research designs. I have won grants and awards for my research. My research currently investigates the function of altered states of consciousness in Peruvian Amazonia, relevant ontologies, pharmocoepia, and cultural evolution.
+:::
+
+::: {.column width="30%"}
+
+```{r}
+#| eval: true
+#| echo: false
+#| fig-align: right
+#| out-width: "125px"
+knitr::include_graphics("media/johnmark.png")
+```
+:::
+:::
+
+
+[Google Scholar](https://scholar.google.de/citations?hl=en&user=BGdIj8wAAAAJ)
+
+###
+
+## Lab Alumni
+
+Amy Du

@@ -1,0 +1,15 @@
+{
+  "hash": "fe18c08c2270447c4633693328529011",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Recent Publications\"\nexecute:\n  echo: false\n---\n\n\n\n\n\n\n#### [The Even Shorter Almost Perfect Scale: Psychometric Evaluation and Cross\\-National Implications for Psychological Outcomes](https://www\\.tandfonline\\.com/doi/abs/10\\.1080/00223891\\.2024\\.2310010)\nKG Rice\\, Q Wang\\, H Wetstone\\, J Bulbulia\\, CG Sibley\\, DE Davis\n\nJournal of Personality Assessment, 2024\n\n#### [A half\\-Irish exit](https://www\\.tandfonline\\.com/doi/full/10\\.1080/2153599X\\.2024\\.2320523)\nJ Bulbulia\n\nReligion\\, Brain & Behavior, 2024\n\n#### [Moral Courage and Civil Courage: The same side of two coins?–A Bibliometric](https://osf\\.io/mz7ek/download)\nTM Schalk\\, R Fischer\\, M Luczak\\-Roesch\n\nPsyArXiv\\. https://doi\\. org/, 2024\n\n#### [240 Years of Public Discourse on Moral Courage in The London Times](https://osf\\.io/36r4w/download)\nTM Schalk\\, R Fischer\\, M Luczak\\-Roesch\n\nPsyArXiv\\. https://doi\\. org/, 2024\n\n#### [Measurement Error Bias Understood Through Sequential Causal Diagrams](https://files\\.osf\\.io/v1/resources/jq78d/providers/osfstorage/656816eca7a4835a9671437b?action=download&direct&version=3)\nJ Bulbulia\n\nRetrieved from osf\\. io/preprints/psyarxiv/jq, 2023",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
