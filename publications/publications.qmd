@@ -1,7 +1,82 @@
 ---
-title: "Publications"
+title: "Recent Publications"
+execute:
+  echo: false
 ---
 
+```{r include=FALSE}
+library(tidyverse)
+```
 
-## Recent Publications
 
+```{r include=FALSE}
+joe <- "82b99k8AAAAJ"
+ink <- "UlU1ecwAAAAJ"
+tor <- "fcMXAx4AAAAJ"
+joh <- "__cSwwYAAAAJ"
+reb <- "BGdIj8wAAAAJ"
+pub_joe <- scholar::get_publications(joe) %>% 
+           arrange(desc(year)) %>% 
+           filter(journal != "OSF" & year %in% c(2024, 2023)) %>% 
+           mutate(id = joe)
+pub_ink <- scholar::get_publications(ink) %>% 
+           arrange(desc(year)) %>% 
+           filter(journal != "OSF" & year %in% c(2024, 2023)) %>% 
+           mutate(id = ink)
+pub_tor <- scholar::get_publications(tor) %>% 
+           arrange(desc(year)) %>% 
+           filter(journal != "OSF" & year %in% c(2024, 2023)) %>% 
+           mutate(id = tor)
+pub_joh <- scholar::get_publications(joh) %>% 
+           arrange(desc(year)) %>% 
+           filter(journal != "OSF" & year %in% c(2024, 2023)) %>% 
+           mutate(id = joh)
+pub_reb <- scholar::get_publications(reb) %>% 
+           arrange(desc(year)) %>% 
+           filter(journal != "OSF" & year %in% c(2024, 2023)) %>% 
+           mutate(id = reb)
+
+pubs <- reduce(list(pub_joe, pub_ink, pub_tor, pub_joh, pub_reb), bind_rows)
+
+
+pub_date_url_l <- lapply(1:nrow(pubs), function(x) {
+                    temp <- pubs %>% 
+                            select(pubid, id)
+                    date <- scholar::get_publication_date(temp$id[x], temp$pubid[x])
+                    url <- scholar::get_publication_url(temp$id[x], temp$pubid[x])
+                    
+                    out <- tibble(date = date,
+                                  url = url,
+                                  pubid = temp$pubid[x])
+})
+
+pubs <- left_join(pubs, reduce(pub_date_url_l, bind_rows)) %>% 
+        mutate(date = lubridate::ymd(date, truncated = 2)) %>% 
+        arrange(desc(date))
+
+```
+
+#### [`{r} pubs$title[1]`](`{r} pubs$url[1]`)
+`{r} pubs$author[1]`
+
+`{r} pubs$journal[1]`, `{r} pubs$year[1]`
+
+#### [`{r} pubs$title[2]`](`{r} pubs$url[2]`)
+`{r} pubs$author[2]`
+
+`{r} pubs$journal[2]`, `{r} pubs$year[2]`
+
+#### [`{r} pubs$title[3]`](`{r} pubs$url[3]`)
+`{r} pubs$author[3]`
+
+`{r} pubs$journal[3]`, `{r} pubs$year[3]`
+
+#### [`{r} pubs$title[4]`](`{r} pubs$url[4]`)
+`{r} pubs$author[4]`
+
+`{r} pubs$journal[4]`, `{r} pubs$year[4]`
+
+#### [`{r} pubs$title[5]`](`{r} pubs$url[5]`)
+`{r} pubs$author[5]`
+
+`{r} pubs$journal[5]`, `{r} pubs$year[5]`
